@@ -392,42 +392,6 @@ export default function AddDetails() {
                     type="text"
                   />
                 </div>
-                {/* <div className="col-span-6 sm:col-span-3 mt-4">
-                  <div className="flex">
-                    <label
-                      for="email"
-                      className="block text-sm font-medium text-gray-700"
-                    >
-                      Placement Email address
-                    </label>
-                    <span className="ml-1 text-red-600 font-semibold">*</span>
-                  </div>
-                  <input
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-yellow-500"
-                    id="email"
-                    name="email"
-                    type="email"
-                    required
-                  />
-                </div> */}
-                {/* <div className="col-span-6 sm:col-span-3 mt-4">
-                  <div className="flex">
-                    <label
-                      for="phone"
-                      className="block text-sm font-medium text-gray-700"
-                    >
-                      Placement Phone Number
-                    </label>
-                    <span className="ml-1 text-red-600 font-semibold">*</span>
-                  </div>
-                  <input
-                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-yellow-500"
-                    id="phone"
-                    required
-                    name="phone"
-                    type="tel"
-                  />
-                </div> */}
               </div>
               <div className="grid grid-cols-6 gap-4">
                 <div className="col-span-6 sm:col-span-3 mt-4">
