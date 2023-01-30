@@ -5,7 +5,7 @@ import Link from "next/link"
 
 
 
-export default function form() {
+export default function Form() {
     
     const {register , handleSubmit ,control} = useForm({
         defaultValues:{

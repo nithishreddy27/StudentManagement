@@ -4,7 +4,7 @@ import { useUser } from '../../lib/hooks'
 import { motion, AnimatePresence, delay } from "framer-motion";
 
 
-export default function result({results}) {
+export default function Result({results}) {
   const user = useUser()
   const router = useRouter()
   var username = router.query

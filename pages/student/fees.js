@@ -3,7 +3,7 @@ import React from 'react'
 import { motion, AnimatePresence, delay } from "framer-motion";
 
 
-export default function fees({fees}) {
+export default function Fees({fees}) {
 
     const router = useRouter()
     const username=router.query

@@ -4,7 +4,7 @@ import { useFieldArray, useForm } from "react-hook-form";
 import Router from "next/router";
 import { motion, AnimatePresence, delay } from "framer-motion";
 
-export default function profile() {
+export default function Profile() {
   const user = useUser();
 
   const { register, handleSubmit, control } = useForm({

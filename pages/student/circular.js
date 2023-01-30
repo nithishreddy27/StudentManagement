@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, AnimatePresence, delay } from "framer-motion";
 
-export default function circular({ circular }) {
+export default function Circular({ circular }) {
   return (
     <>
       <img

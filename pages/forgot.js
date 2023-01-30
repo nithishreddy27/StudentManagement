@@ -1,6 +1,6 @@
 import React from 'react'
 
-const forgot = () => {
+const Forgot = () => {
   return (
     <div className='flex-col'>
     <div className="login mx-auto relative bg-white w-screen h-screen justify-center align-middle">
@@ -21,4 +21,4 @@ const forgot = () => {
   )
 }
 
-export default forgot
+export default Forgot
