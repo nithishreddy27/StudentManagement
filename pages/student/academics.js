@@ -272,7 +272,7 @@ export default function Academics({academics}) {
 
 export const getServerSideProps = async ()=>{
   // console.log("object");
-  const respone = await fetch("http://localhost:3000/api/academics",{
+  const respone = await fetch("https://student-management-qanz6atz3-nithishreddy27.vercel.app/api/academics",{
     method:"GET",
     headers : {
       'Content-Type' : 'application/json',

@@ -53,7 +53,7 @@ export default function Fees({fees}) {
 }
 
 export const getServerSideProps = async ()=>{
-    const respone = await fetch("http://localhost:3000/api/fees",{
+    const respone = await fetch("https://student-management-qanz6atz3-nithishreddy27.vercel.app/api/fees",{
       method:"GET",
       headers : {
         'Content-Type' : 'application/json',

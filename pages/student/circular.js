@@ -134,7 +134,7 @@ export default function Circular({ circular }) {
   );
 }
 export const getServerSideProps = async () => {
-  const respone = await fetch("http://localhost:3000/api/circular", {
+  const respone = await fetch("https://student-management-qanz6atz3-nithishreddy27.vercel.app/api/circular", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
