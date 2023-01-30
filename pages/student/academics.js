@@ -89,7 +89,7 @@ export default function Academics({academics}) {
                         duration: 1.0,
                         delay: 0.2,
                       }}
-                        className="w-[100%] border rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 p-10  hover:scale-110 cursor-pointer transition-all ease-in-out duration-200 hover:bg-slate-200">
+                        className="w-[100%] border rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 p-10  hover:scale-110 cursor-pointer transition-all ease-in-out duration-200 hover:bg-slate-200" key={test._id}>
                           <h1 className='text-center text-2xl font-semibold my-3'>  {test.name.toUpperCase()} </h1>
                           <p className='my-2'><span className='font-semibold '>Topic</span> :{test.topic.toUpperCase()}</p>
                           <p className='my-2'><span className='font-semibold '>Id</span> :{test.id.toUpperCase()}</p>
