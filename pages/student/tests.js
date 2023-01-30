@@ -445,7 +445,7 @@ export default function Tests({ tests }) {
 
 export const getServerSideProps = async () => {
   // console.log("object");
-  const respone = await fetch("http://localhost:3000/api/tests", {
+  const respone = await fetch("https://student-management-qanz6atz3-nithishreddy27.vercel.app/api/tests", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
