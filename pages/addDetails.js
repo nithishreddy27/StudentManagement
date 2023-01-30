@@ -83,12 +83,6 @@ export default function AddDetails() {
 
               {position == "student" && (
                 <div>
-                  {/* <div className="col-span-6 sm:col-span-4 mt-4"> */}
-                   
-                    
-                   
-                    
-                  
                   <div className="grid grid-cols-6 gap-6 mt-4">
                     <div className="col-span-6 sm:col-span-2 ">
                       <div className="flex">
